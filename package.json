@@ -2,6 +2,10 @@
   "name": "@leukeleu/frontend-checks",
   "version": "0.0.1-dev0",
   "main": "index.js",
+  "scripts": {
+    "lint:prettier": "prettier --check .",
+    "lintfix:prettier": "prettier --write ."
+  },
   "peerDependencies": {
     "prettier": "2.8.0"
   }
