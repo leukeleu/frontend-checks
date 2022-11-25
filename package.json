@@ -1,5 +1,6 @@
 {
-  "name": "frontend-checks",
+  "name": "@leukeleu/frontend-checks",
+  "version": "0.0.1-dev0",
   "main": "index.js",
   "peerDependencies": {
     "prettier": "2.8.0"
