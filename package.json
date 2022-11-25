@@ -1,3 +1,7 @@
 {
-  "name": "frontend-checks"
+  "name": "frontend-checks",
+  "main": "index.js",
+  "peerDependencies": {
+    "prettier": "2.8.0"
+  }
 }
