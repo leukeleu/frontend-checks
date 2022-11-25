@@ -9,7 +9,9 @@
   },
   "scripts": {
     "lint:prettier": "prettier --check .",
-    "lintfix:prettier": "prettier --write ."
+    "lintfix:prettier": "prettier --write .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "npm run lintfix:prettier"
   },
   "peerDependencies": {
     "prettier": "2.8.0"
