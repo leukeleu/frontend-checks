@@ -1,6 +1,6 @@
 {
   "name": "@leukeleu/frontend-checks",
-  "version": "0.0.1-dev0",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "lint:prettier": "prettier --check .",
