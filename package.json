@@ -2,6 +2,10 @@
   "name": "@leukeleu/frontend-checks",
   "version": "0.0.1",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leukeleu/frontend-checks.git"
+  },
   "scripts": {
     "lint:prettier": "prettier --check .",
     "lintfix:prettier": "prettier --write ."
