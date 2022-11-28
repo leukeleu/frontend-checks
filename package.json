@@ -9,14 +9,17 @@
   "scripts": {
     "lint:prettier": "prettier --check .",
     "lintfix:prettier": "prettier --write .",
-    "lint": "npm run lint:prettier",
-    "lintfix": "npm run lintfix:prettier"
+    "lint:js": "eslint .",
+    "lintfix:js": "eslint --fix .",
+    "lint": "npm run lint:prettier && npm run lint:js",
+    "lintfix": "npm run lintfix:prettier && npm run lintfix:js"
   },
   "peerDependencies": {
+    "eslint": "8.28.0",
+    "eslint-config-prettier": "8.5.0",
     "prettier": "2.8.0",
     "stylelint": "14.15.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard": "29.0.0"
-  },
-  "prettier": "./prettier.js"
+  }
 }
