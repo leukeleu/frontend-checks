@@ -2,7 +2,6 @@
   "name": "@leukeleu/frontend-checks",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leukeleu/frontend-checks.git"
@@ -15,5 +14,6 @@
   },
   "peerDependencies": {
     "prettier": "2.8.0"
-  }
+  },
+  "prettier": "./prettier.js"
 }
