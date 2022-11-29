@@ -61,9 +61,9 @@ module.exports = {
 }
 ```
 
-This will keep the rules of the config if they are defined and add you own config on top of it.
+This will keep the rules of the config if they are defined and add your own config on top of it.
 
-_Note: Sadly we can't use the eslint 'extends' in the example above as we need to rename our package to '@leukeleu/eslint-config' to do so. This will also not help for extending Prettier and Stylelint config._
+_Note: Sadly we can't use the Eslint 'extends' in the example above as we need to rename our package to '@leukeleu/eslint-config' to do so. This will also not help for extending Prettier and Stylelint config._
 
 ## Testing this package
 
